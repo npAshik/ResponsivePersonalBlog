@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal.Blog</title>
+    <!-- bootstrap css link-->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <!-- main css link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+              <img src="image/logo.png" alt="Logo" />
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-uppercase">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input
+                  class="form-control me-2 border border-primary"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success text-white" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!-- header end -->
+      <div class="border border-dark">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide bg-light carousel my-css"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators bg-secondary  w-25 m-auto mb-3">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner pb-5 d-block" data-puse="hover">
+            <div class="carousel-item active my-item pb-5">
+              <h1>This is Ashik</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aspernatur delectus saepe adipisci impedit unde facilis at
+                perferendis fuga! Excepturi ut tenetur ex velit error a ea est,
+                odit deserunt! Eum.
+              </p>
+              <img
+                src="image/20191106_115807.jpg"
+                alt="picture"
+                class="my-slide-img rounded-circle"
+              />
+            </div>
+            <div class="carousel-item my-item pb-5">
+              <h1>This is Ashik</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aspernatur delectus saepe adipisci impedit unde facilis at
+                perferendis fuga! Excepturi ut tenetur ex velit error a ea est,
+                odit deserunt! Eum.
+              </p>
+              <img
+                src="image/IMG_20191105_010243_250.jpg"
+                alt="picture"
+                class="my-slide-img rounded-circle"
+              />
+            </div>
+            <div class="carousel-item my-item pb-5">
+              <h1>This is Ashik</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aspernatur delectus saepe adipisci impedit unde facilis at
+                perferendis fuga! Excepturi ut tenetur ex velit error a ea est,
+                odit deserunt! Eum.
+              </p>
+              <img
+                src="image/IMG_20191105_010201_287.jpg"
+                alt="picture"
+                class="my-slide-img my-height rounded-circle"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span
+              class="carousel-control-prev-icon bg-dark"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span
+              class="carousel-control-next-icon bg-dark"
+              aria-hidden="true"
+            ></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <!-- Carousel End -->
+        <!-- card section start here -->
+        <div class="container bg-light padding">
+          <div class="row text-center py-3">
+            <div class="col-lg-3 col-md-6 d-flex justify-content-center py-3">
+              <div class="card border border-success bg-dark text-white" style="width: 18rem;">
+                  <img src="image/20201006_224312.jpg" class="card-img-top" alt="picture">
+                <div class="card-body">
+                  <h3 class="card-title">Np Ashik</h3>
+                  <p class="card-text">Web Designer And Future Developer</p>
+                  <a href="#" class="btn btn-primary card-link">Contact Me</a>
+                </div>
+              </div>
+            </div>
+              <div class="col-lg-3 col-md-6 d-flex justify-content-center py-3">
+                <div class="card border border-success bg-dark text-white" style="width: 18rem;">
+                  <img src="image/20201006_224312.jpg" class="card-img-top img-fluid " alt="picture">
+                  <div class="card-body">
+                    <h3 class="card-title">Np Ashik</h3>
+                    <p class="card-text">Web Designer And Future Developer</p>
+                    <a href="#" class="btn btn-primary">Contact Me</a>
+                  </div>
+                </div>
+              </div>
+            <div class="col-lg-3 col-md-6 d-flex justify-content-center py-3">
+              <div class="card border border-success bg-dark text-white" style="width: 18rem;">
+                <img src="image/20201006_224312.jpg" class="card-img-top img-fluid " alt="picture">
+                <div class="card-body">
+                  <h3 class="card-title">Np Ashik</h3>
+                  <p class="card-text">Web Designer And Future Developer</p>
+                  <a href="#" class="btn btn-primary">Contact Me</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 d-flex justify-content-center py-3">
+              <div class="card border border-success bg-dark text-white" style="width: 18rem;">
+                <img src="image/20201006_224312.jpg" class="card-img-top img-fluid "alt="picture">
+                <div class="card-body">
+                  <h3 class="card-title">Np Ashik</h3>
+                  <p class="card-text">Web Designer And Future Developer</p>
+                  <a href="#" class="btn btn-primary">Contact Me</a>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      </main>
+      <!-- main End -->
+      <footer class=" bg-dark text-center py-3">
+        <div class="container padding">
+          <a href="#"><i class="fab fa-facebook fa-3x px-3"></i></a>
+          <a href="#"><i class="fab fa-instagram fa-3x px-3" aria-hidden="true"></i></a>
+          <a href="#"><i class="fab fa-twitter fa-3x px-3" aria-hidden="true"></i></a>
+          <a href="#"><i class="fab fa-github fa-3x px-3" aria-hidden="true"></i></a>
+        </div>
+      </footer>
+    </div>
+    <!-- ============Bootstap js============== -->
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>
